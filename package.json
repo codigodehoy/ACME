@@ -1,0 +1,31 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "jest"
+  },
+  "author": "David Cadena",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.4.2",
+    "babel-preset-es2015": "^6.24.1",
+    "colors": "^1.4.0",
+    "jest": "^27.4.2",
+    "nodemon": "^2.0.15"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "dist/"
+    ],
+    "restoreMocks": true
+  }
+}
