@@ -4,9 +4,6 @@ import colors from 'colors'
 const employeeSchedule = getEmployeeSchedule();
 const daysWeek = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
 
-export const add = (a, b) => {
-  return a + b;
-}
 
 // Count the times that two employees had seen and render screem
 const getEmployeesTime = (index, index2) => {
